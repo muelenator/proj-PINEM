@@ -1,0 +1,45 @@
+[build-system]
+requires = ["hatchling", "hatch-vcs"] # Added hatch-vcs
+build-backend = "hatchling.build"
+# backend-path = ["."] # 
+
+[project]
+name = "proj-PINEM"
+dynamic = ["version"] # Version is now dynamic
+description = "Quantum light stuff"
+readme = "README.md"
+requires-python = ">=3.7"
+license = "MIT"
+authors = [
+  { name = "Your Name", email = "you@example.com" },
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "numpy",
+    "scipy",
+    "mpmath",
+    "matplotlib",
+    "mpmath",
+]
+
+[tool.hatch.build.targets.sdist]
+exclude = [
+  "/.*",
+  "/docs"
+]
+
+[tool.hatch.version]
+source = "vcs"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/epower", "src/powerconfigs", "src/ElectronFunctions", "src/AnalyticEigenmodes"]
+
+# [tool.hatch.build.targets.wheel.sources]
+# "src" = ""
+
+[tool.hatch.metadata]
+allow-direct-references = true
