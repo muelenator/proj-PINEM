@@ -1,0 +1,9 @@
+[submodule "DataHelpers"]
+	path = src/DataHelpers
+	url = git@github.com:muelenator/DataHelpers.git
+[submodule "ElectronFunctions"]
+	path = src/ElectronFunctions
+	url = git@github.com:muelenator/ElectronFunctions.git
+[submodule "AnalyticEigenmodes"]
+	path = src/AnalyticEigenmodes
+	url = git@github.com:muelenator/AnalyticEigenmodes.git
