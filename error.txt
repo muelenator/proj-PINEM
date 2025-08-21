@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "/storage/group/lad57/default/Mueller_Files/Photons/proj-PINEM/cluster/mpi_scripts/MPI_nDHist_CalcLikelihood.py", line 271, in <module>
+    bins = np.array(bins)
+ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (3,) + inhomogeneous part.
+Traceback (most recent call last):
+  File "/storage/group/lad57/default/Mueller_Files/Photons/proj-PINEM/cluster/mpi_scripts/MPI_nDHist_CalcLikelihood.py", line 271, in <module>
+    bins = np.array(bins)
+ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (3,) + inhomogeneous part.
+Traceback (most recent call last):
+  File "/storage/group/lad57/default/Mueller_Files/Photons/proj-PINEM/cluster/mpi_scripts/MPI_nDHist_CalcLikelihood.py", line 271, in <module>
+Traceback (most recent call last):
+  File "/storage/group/lad57/default/Mueller_Files/Photons/proj-PINEM/cluster/mpi_scripts/MPI_nDHist_CalcLikelihood.py", line 271, in <module>
+    bins = np.array(bins)
+ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (3,) + inhomogeneous part.
+    bins = np.array(bins)
+ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (3,) + inhomogeneous part.
+srun: error: p-sc-2380: task 1: Exited with exit code 1
+srun: error: p-sc-2363: task 0: Exited with exit code 1
+srun: error: p-sc-2384: task 3: Exited with exit code 1
+srun: error: p-sc-2383: task 2: Exited with exit code 1

@@ -1,3 +1,0 @@
-srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
-slurmstepd: error: *** STEP 25635028.0 ON p-bc-5094 CANCELLED AT 2024-11-01T16:56:54 DUE TO TIME LIMIT ***
-slurmstepd: error: *** JOB 25635028 ON p-bc-5094 CANCELLED AT 2024-11-01T16:56:54 DUE TO TIME LIMIT ***

@@ -1,0 +1,7 @@
+Python 3.10.18
+/storage/work/rjm6826/.conda/envs/py310/bin/python3
+/storage/icds/RISE/sw8/mpich-4.2a1/bin/mpicc
+('MPICH', (4, 2, 0))
+/storage/icds/RISE/sw8/mpich-4.2a1/lib::
+Thu Aug 21 15:41:20 EDT 2025
+Started script with 4 processes

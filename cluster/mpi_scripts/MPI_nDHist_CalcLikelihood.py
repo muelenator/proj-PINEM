@@ -13,14 +13,16 @@ import matplotlib.pyplot as plt
 import os
 import glob
 import sys
-module_path = os.path.abspath(os.path.join('..'))
-if module_path not in sys.path:
-    sys.path.append(module_path)
-from bkgndLibs.PINEM import *
-from bkgndLibs.electronFns import *
-from bkgndLibs.T_modes_cylinder import *
-from bkgndLibs.helpers import powerset
-from PINEM_tests.config.savepaths import default_dir, savedir
+import h5py
+# module_path = os.path.abspath(os.path.join('..'))
+# if module_path not in sys.path:
+#     sys.path.append(module_path)
+
+from PINEM.PINEM import *
+from ElectronFunctions.electronFns import *
+from AnalyticEigenmodes.T_modes_cylinder import *
+from DataHelpers.helpers import powerset, h5store
+from PINEM.config.savepaths import default_dir, savedir
 
 from mpi4py import MPI
 
